@@ -2,7 +2,7 @@
   "_moduleAliases": {
     "@": "dist"
   },
-  "name": "express-ts-template",
+  "name": "@klog/node-template-express-ts",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
