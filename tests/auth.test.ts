@@ -4,7 +4,7 @@ let api: request.SuperTest<request.Test>, server: any
 
 describe('auth', () => {
   beforeEach(async () => {
-    server = (await import('..')).server
+    server = (await import('../src')).server
     api = request(server)
   })
   afterEach(() => server?.close?.())

@@ -49,7 +49,7 @@
     "preset": "ts-jest",
     "testEnvironment": "node",
     "testMatch": [
-      "**/__tests__/**/(*.)+(test).(ts|js)"
+      "**/tests/**/(*.)+(test).(ts|js)"
     ],
     "transform": {
       "node_modules/variables/.+\\.(js|ts)$": "ts-jest"

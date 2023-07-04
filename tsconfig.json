@@ -17,5 +17,5 @@
     }
   },
   "include": ["src"],
-  "exclude": ["coverage", "dist", "node_modules", "**/__tests__/*"]
+  "exclude": ["coverage", "dist", "node_modules", "tests"]
 }

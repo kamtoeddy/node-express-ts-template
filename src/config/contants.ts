@@ -21,8 +21,6 @@ const constants = loadVariables({
       return val.trim() == 'true' ? true : false
     }
   },
-  JWT_SECRET: 'jwt-secret',
-  JWT_TOKEN_EXPIRATON_TIME: '25d',
   NODE_ENV: 'development',
   PORT: {
     default() {
