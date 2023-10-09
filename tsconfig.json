@@ -5,20 +5,18 @@
     "forceConsistentCasingInFileNames": true,
     "module": "commonjs",
     "moduleResolution": "node",
+    "resolveJsonModule": true,
     "strict": true,
     "target": "es2016",
     "outDir": "./dist",
-    "incremental": true,
     "removeComments": true,
     "skipLibCheck": true,
     "rootDir": "./src",
-    "types": ["jest", "node"],
+    "types": ["node"],
     "paths": {
-      "@/*": ["./src/*"]
-    }
-  },
-  "ts-node": {
-    "require": ["tsconfig-paths/register"]
+      "@/*": ["src/*"]
+    },
+    "typeRoots": ["./node_modules/@types"]
   },
   "include": ["src"],
   "exclude": ["coverage", "dist", "node_modules", "tests"]
